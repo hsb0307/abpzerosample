@@ -3,7 +3,7 @@ using Abp.Web.Mvc.Authorization;
 
 namespace Husb.Community.Web.Controllers
 {
-    //[AbpMvcAuthorize]
+    [AbpMvcAuthorize]
     public class HomeController : CommunityControllerBase
     {
         public ActionResult Index()
