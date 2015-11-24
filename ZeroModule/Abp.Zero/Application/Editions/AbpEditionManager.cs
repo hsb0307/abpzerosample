@@ -12,6 +12,9 @@ using Abp.Runtime.Caching;
 
 namespace Abp.Application.Editions
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public abstract class AbpEditionManager : 
         IDomainService, 
         IEventHandler<EntityChangedEventData<Edition>>,
