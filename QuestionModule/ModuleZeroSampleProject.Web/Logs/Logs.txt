@@ -10041,3 +10041,767 @@ Abp.UI.UserFriendlyException: Invalid user name or password!
    at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
    at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
    at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2015-11-25 12:59:08,340 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-11-25 12:59:09,595 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-11-25 12:59:09,597 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 12:59:09,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 12:59:09,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 12:59:09,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 12:59:09,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 12:59:09,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 12:59:09,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.4.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 12:59:09,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.4.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 12:59:09,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectApplicationModule, ModuleZeroSampleProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 12:59:09,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectCoreModule, ModuleZeroSampleProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 12:59:09,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectDataModule, ModuleZeroSampleProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 12:59:09,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.Web.ModuleZeroSampleProjectWebModule, ModuleZeroSampleProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 12:59:09,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectWebApiModule, ModuleZeroSampleProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 12:59:09,602 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-11-25 12:59:11,261 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-11-25 12:59:11,267 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-11-25 12:59:11,267 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-11-25 12:59:11,268 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-11-25 12:59:11,269 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ModuleZeroSampleProject
+DEBUG 2015-11-25 12:59:12,150 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2015-11-25 12:59:12,150 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.AnswerDto
+DEBUG 2015-11-25 12:59:12,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.QuestionDto
+DEBUG 2015-11-25 12:59:12,293 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.QuestionWithAnswersDto
+DEBUG 2015-11-25 12:59:12,300 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Users.Dto.UserDto
+DEBUG 2015-11-25 12:59:12,335 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Questions.IQuestionAppService' with service name 'app/question'.
+DEBUG 2015-11-25 12:59:12,335 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Users.IUserAppService' with service name 'app/user'.
+ERROR 2015-11-25 13:00:21,717 [10   ] .Mvc.Controllers.AbpHandleErrorAttribute - System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Database.Initialize(Boolean force)
+   at Abp.EntityFramework.AbpDbContext.Initialize() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\AbpDbContext.cs:line 121
+   at Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   at Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   at Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   at Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   at Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   at Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve[T]()
+   at Abp.Dependency.IocManager.Resolve[T]() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Dependency\IocManager.cs:line 159
+   at Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:line 179
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:line 125
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork) in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Uow\UnitOfWorkExtensions.cs:line 31
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Uow\UnitOfWorkDbContextProvider.cs:line 17
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 25
+   at Castle.Proxies.EfRepositoryBase`3Proxy.get_Context_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 28
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 30
+   at Castle.Proxies.EfRepositoryBase`3Proxy.get_Table_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 28
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 45
+   at Castle.Proxies.EfRepositoryBase`3Proxy.GetAll_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 28
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy.GetAll()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.<GetAllListAsync>d__3.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 55
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingStore.<GetAllListAsync>d__4.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ZeroModule\Abp.Zero\Configuration\SettingStore.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<>c__DisplayClass53.<<GetTenantSettingsFromCache>b__52>d__55.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 384
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Runtime.Caching.CacheExtensions.<>c__DisplayClassd`2.<<GetAsync>b__c>d__f.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Runtime\Caching\CacheExtensions.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Runtime.Caching.CacheBase.<GetAsync>d__1.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Runtime\Caching\CacheBase.cs:line 67
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Runtime.Caching.CacheExtensions.<GetAsync>d__13`2.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Runtime\Caching\CacheExtensions.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<GetTenantSettingsFromCache>d__5a.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 378
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<GetReadOnlyTenantSettings>d__47.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 360
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<GetSettingValueForTenantOrNullAsync>d__37.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 334
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<GetSettingValueInternalAsync>d__23.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 226
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Web.Settings.SettingScriptManager.<GetScriptAsync>d__2.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.Web\Web\Settings\SettingScriptManager.cs:line 47
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__0.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.Web.Mvc\Web\Mvc\Controllers\AbpScriptsController.cs:line 84
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Database.Initialize(Boolean force)
+   at Abp.EntityFramework.AbpDbContext.Initialize() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\AbpDbContext.cs:line 121
+   at Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   at Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   at Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   at Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   at Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   at Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve[T]()
+   at Abp.Dependency.IocManager.Resolve[T]() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Dependency\IocManager.cs:line 159
+   at Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:line 179
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:line 125
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork) in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Uow\UnitOfWorkExtensions.cs:line 31
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Uow\UnitOfWorkDbContextProvider.cs:line 17
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 25
+   at Castle.Proxies.EfRepositoryBase`3Proxy.get_Context_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 28
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 30
+   at Castle.Proxies.EfRepositoryBase`3Proxy.get_Table_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 28
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 45
+   at Castle.Proxies.EfRepositoryBase`3Proxy.GetAll_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 28
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy.GetAll()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.<GetAllListAsync>d__3.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 55
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingStore.<GetAllListAsync>d__4.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ZeroModule\Abp.Zero\Configuration\SettingStore.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<>c__DisplayClass53.<<GetTenantSettingsFromCache>b__52>d__55.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 384
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Runtime.Caching.CacheExtensions.<>c__DisplayClassd`2.<<GetAsync>b__c>d__f.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Runtime\Caching\CacheExtensions.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Runtime.Caching.CacheBase.<GetAsync>d__1.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Runtime\Caching\CacheBase.cs:line 67
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Runtime.Caching.CacheExtensions.<GetAsync>d__13`2.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Runtime\Caching\CacheExtensions.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<GetTenantSettingsFromCache>d__5a.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 378
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<GetReadOnlyTenantSettings>d__47.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 360
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<GetSettingValueForTenantOrNullAsync>d__37.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 334
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<GetSettingValueInternalAsync>d__23.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 226
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Web.Settings.SettingScriptManager.<GetScriptAsync>d__2.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.Web\Web\Settings\SettingScriptManager.cs:line 47
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__0.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.Web.Mvc\Web\Mvc\Controllers\AbpScriptsController.cs:line 84
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+DEBUG 2015-11-25 13:14:08,929 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-11-25 13:14:12,131 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-11-25 13:14:12,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 13:14:12,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 13:14:12,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 13:14:12,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 13:14:12,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 13:14:12,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 13:14:12,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.4.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 13:14:12,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.4.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 13:14:12,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectApplicationModule, ModuleZeroSampleProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 13:14:12,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectCoreModule, ModuleZeroSampleProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 13:14:12,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectDataModule, ModuleZeroSampleProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 13:14:12,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.Web.ModuleZeroSampleProjectWebModule, ModuleZeroSampleProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 13:14:12,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectWebApiModule, ModuleZeroSampleProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-25 13:14:12,139 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-11-25 13:14:13,103 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-11-25 13:14:13,111 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-11-25 13:14:13,111 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-11-25 13:14:13,112 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-11-25 13:14:13,113 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ModuleZeroSampleProject
+DEBUG 2015-11-25 13:14:13,932 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2015-11-25 13:14:13,932 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.AnswerDto
+DEBUG 2015-11-25 13:14:14,088 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.QuestionDto
+DEBUG 2015-11-25 13:14:14,092 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.QuestionWithAnswersDto
+DEBUG 2015-11-25 13:14:14,096 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Users.Dto.UserDto
+DEBUG 2015-11-25 13:14:14,125 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Questions.IQuestionAppService' with service name 'app/question'.
+DEBUG 2015-11-25 13:14:14,125 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Users.IUserAppService' with service name 'app/user'.
+ERROR 2015-11-25 13:15:20,501 [6    ] .Mvc.Controllers.AbpHandleErrorAttribute - System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Database.Initialize(Boolean force)
+   at Abp.EntityFramework.AbpDbContext.Initialize() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\AbpDbContext.cs:line 121
+   at Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   at Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   at Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   at Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   at Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   at Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve[T]()
+   at Abp.Dependency.IocManager.Resolve[T]() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Dependency\IocManager.cs:line 159
+   at Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:line 179
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:line 125
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork) in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Uow\UnitOfWorkExtensions.cs:line 31
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Uow\UnitOfWorkDbContextProvider.cs:line 17
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 25
+   at Castle.Proxies.EfRepositoryBase`3Proxy.get_Context_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 28
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 30
+   at Castle.Proxies.EfRepositoryBase`3Proxy.get_Table_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 28
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 45
+   at Castle.Proxies.EfRepositoryBase`3Proxy.GetAll_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 28
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy.GetAll()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.<GetAllListAsync>d__3.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 55
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingStore.<GetAllListAsync>d__4.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ZeroModule\Abp.Zero\Configuration\SettingStore.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<>c__DisplayClass53.<<GetTenantSettingsFromCache>b__52>d__55.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 384
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Runtime.Caching.CacheExtensions.<>c__DisplayClassd`2.<<GetAsync>b__c>d__f.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Runtime\Caching\CacheExtensions.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Runtime.Caching.CacheBase.<GetAsync>d__1.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Runtime\Caching\CacheBase.cs:line 67
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Runtime.Caching.CacheExtensions.<GetAsync>d__13`2.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Runtime\Caching\CacheExtensions.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<GetTenantSettingsFromCache>d__5a.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 378
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<GetReadOnlyTenantSettings>d__47.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 360
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<GetSettingValueForTenantOrNullAsync>d__37.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 334
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<GetSettingValueInternalAsync>d__23.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 226
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Web.Settings.SettingScriptManager.<GetScriptAsync>d__2.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.Web\Web\Settings\SettingScriptManager.cs:line 47
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__0.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.Web.Mvc\Web\Mvc\Controllers\AbpScriptsController.cs:line 84
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Database.Initialize(Boolean force)
+   at Abp.EntityFramework.AbpDbContext.Initialize() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\AbpDbContext.cs:line 121
+   at Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   at Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   at Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   at Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   at Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   at Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve[T]()
+   at Abp.Dependency.IocManager.Resolve[T]() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Dependency\IocManager.cs:line 159
+   at Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:line 179
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:line 125
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork) in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Uow\UnitOfWorkExtensions.cs:line 31
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Uow\UnitOfWorkDbContextProvider.cs:line 17
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 25
+   at Castle.Proxies.EfRepositoryBase`3Proxy.get_Context_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 28
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 30
+   at Castle.Proxies.EfRepositoryBase`3Proxy.get_Table_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 28
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 45
+   at Castle.Proxies.EfRepositoryBase`3Proxy.GetAll_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 28
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy.GetAll()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.<GetAllListAsync>d__3.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 55
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingStore.<GetAllListAsync>d__4.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ZeroModule\Abp.Zero\Configuration\SettingStore.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<>c__DisplayClass53.<<GetTenantSettingsFromCache>b__52>d__55.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 384
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Runtime.Caching.CacheExtensions.<>c__DisplayClassd`2.<<GetAsync>b__c>d__f.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Runtime\Caching\CacheExtensions.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Runtime.Caching.CacheBase.<GetAsync>d__1.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Runtime\Caching\CacheBase.cs:line 67
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Runtime.Caching.CacheExtensions.<GetAsync>d__13`2.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Runtime\Caching\CacheExtensions.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<GetTenantSettingsFromCache>d__5a.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 378
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<GetReadOnlyTenantSettings>d__47.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 360
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<GetSettingValueForTenantOrNullAsync>d__37.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 334
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Configuration.SettingManager.<GetSettingValueInternalAsync>d__23.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp\Configuration\SettingManager.cs:line 226
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Web.Settings.SettingScriptManager.<GetScriptAsync>d__2.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.Web\Web\Settings\SettingScriptManager.cs:line 47
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__0.MoveNext() in e:\Sync\Sync\Study\Framework\abp\abpzerosample\ABPFramework\Abp.Web.Mvc\Web\Mvc\Controllers\AbpScriptsController.cs:line 84
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20

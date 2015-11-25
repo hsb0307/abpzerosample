@@ -9,6 +9,7 @@ using Abp.Localization;
 using Abp.Localization.Dictionaries;
 using Abp.Localization.Dictionaries.Xml;
 using System.Web;
+using Abp.Localization.Sources.Xml;
 
 namespace Husb.Community.Web
 {
@@ -22,6 +23,12 @@ namespace Husb.Community.Web
             Configuration.Localization.Languages.Add(new LanguageInfo("zh-CN", "简体中文", "famfamfam-flag-cn"));
 
             ////Add a localization source
+            Configuration.Localization.Sources.Add(
+                new XmlLocalizationSource(
+                    CommunityConsts.LocalizationSourceName,
+                    HttpContext.Current.Server.MapPath("~/Localization/Community")
+                    )
+                );
             //Configuration.Localization.Sources.Add(
             //    new DictionaryBasedLocalizationSource(
             //        "Community",

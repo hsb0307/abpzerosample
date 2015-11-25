@@ -105,8 +105,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Husb.Community.WebApi", "Co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{973663DE-8434-409B-881D-62AD633D62EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Husb.Community.Tests", "Community\Tests\Husb.Community.Tests\Husb.Community.Tests.csproj", "{C602C47E-F379-40A3-A146-4F19105B3491}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -261,10 +259,6 @@ Global
 		{8D91952A-F6B2-4C57-8379-6B9FBDEE8B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D91952A-F6B2-4C57-8379-6B9FBDEE8B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D91952A-F6B2-4C57-8379-6B9FBDEE8B02}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C602C47E-F379-40A3-A146-4F19105B3491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C602C47E-F379-40A3-A146-4F19105B3491}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C602C47E-F379-40A3-A146-4F19105B3491}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C602C47E-F379-40A3-A146-4F19105B3491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -309,6 +303,5 @@ Global
 		{69D62CE7-3B8E-4DDA-B73B-1956433430DE} = {EE6E66E2-88DE-4F05-B31B-EB4ECA9D2D10}
 		{8D91952A-F6B2-4C57-8379-6B9FBDEE8B02} = {EE6E66E2-88DE-4F05-B31B-EB4ECA9D2D10}
 		{973663DE-8434-409B-881D-62AD633D62EB} = {EE6E66E2-88DE-4F05-B31B-EB4ECA9D2D10}
-		{C602C47E-F379-40A3-A146-4F19105B3491} = {973663DE-8434-409B-881D-62AD633D62EB}
 	EndGlobalSection
 EndGlobal
