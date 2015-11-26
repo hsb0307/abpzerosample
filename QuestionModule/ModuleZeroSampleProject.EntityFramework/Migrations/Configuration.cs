@@ -11,7 +11,7 @@ namespace ModuleZeroSampleProject.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
             ContextKey = "ModuleZeroSampleProject";
         }
 

@@ -7,9 +7,10 @@ using Abp.Zero.Configuration;
 using Husb.Community.Api;
 using Abp.Localization;
 using Abp.Localization.Dictionaries;
-using Abp.Localization.Dictionaries.Xml;
+
 using System.Web;
-using Abp.Localization.Sources.Xml;
+using Abp.Localization.Dictionaries.Xml;
+
 
 namespace Husb.Community.Web
 {
@@ -22,13 +23,15 @@ namespace Husb.Community.Web
             Configuration.Localization.Languages.Add(new LanguageInfo("en", "English", "famfamfam-flag-england", true));
             Configuration.Localization.Languages.Add(new LanguageInfo("zh-CN", "简体中文", "famfamfam-flag-cn"));
 
-            ////Add a localization source
-            Configuration.Localization.Sources.Add(
-                new XmlLocalizationSource(
-                    CommunityConsts.LocalizationSourceName,
-                    HttpContext.Current.Server.MapPath("~/Localization/Community")
-                    )
-                );
+            //Add a localization source
+            //Configuration.Localization.Sources.Add(
+            //    new DictionaryBasedLocalizationSource(
+            //        CommunityConsts.LocalizationSourceName,
+            //        new XmlFileLocalizationDictionaryProvider(
+            //            HttpContext.Current.Server.MapPath("~/Localization/Community")
+            //        )
+            //    )
+            //);
             //Configuration.Localization.Sources.Add(
             //    new DictionaryBasedLocalizationSource(
             //        "Community",

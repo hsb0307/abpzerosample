@@ -2,6 +2,11 @@
 <localizationDictionary culture="zh-CN">
   <texts>
     <text name="WellcomeMessage" value="欢迎使用ASP.NET Boilerplate框架" />
+    <text name="Home_ThisIsATemplate" value="ThisIsATemplate to ABP" />
+    <text name="Home_AspNetDescription" value="AspNetDescription to ABP" />
+    <text name="Home_AspNetBoilerplateDescription" value="AspNetBoilerplateDescription to ABP" />
+    <text name="Home_AngularDescription" value="AngularDescription to ABP" />
+
     <text name="TaskSystem" value="任务管理" />
     <text name="TaskList" value="任务列表" />
     <text name="NewTask" value="新任务" />

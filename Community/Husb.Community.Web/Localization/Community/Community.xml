@@ -2,6 +2,11 @@
 <localizationDictionary culture="en">
   <texts>
     <text name="WellcomeMessage" value="Wellcome to ABP" />
+    <text name="Home_ThisIsATemplate" value="ThisIsATemplate to ABP" />
+    <text name="Home_AspNetDescription" value="AspNetDescription to ABP" />
+    <text name="Home_AspNetBoilerplateDescription" value="AspNetBoilerplateDescription to ABP" />
+    <text name="Home_AngularDescription" value="AngularDescription to ABP" />
+    
     
     <text name="TaskSystem" value="Task System" />
     <text name="TaskList" value="Task List" />

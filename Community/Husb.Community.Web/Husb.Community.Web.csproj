@@ -295,7 +295,7 @@
     <Content Include="App\Main\views\home\home.cshtml" />
     <Content Include="App\Main\views\about\about.cshtml" />
     <Content Include="App\Main\web.config" />
-    <Content Include="Localization\Community\Community-zh-CN.xml" />
+    <Content Include="Localization\Community\Community.zh-CN.xml" />
     <Content Include="Localization\Community\Community.xml" />
     <Content Include="log4net.config" />
     <Content Include="App\Main\views\layout\header.cshtml" />
