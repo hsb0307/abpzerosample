@@ -6,6 +6,8 @@ using System.Web.Routing;
 using Abp.Localization;
 using Abp.Localization.Sources.Xml;
 using Abp.Modules;
+using Abp.Localization.Dictionaries;
+using Abp.Localization.Dictionaries.Xml;
 
 namespace ModuleZeroSampleProject.Web
 {
@@ -19,12 +21,21 @@ namespace ModuleZeroSampleProject.Web
             Configuration.Localization.Languages.Add(new LanguageInfo("tr", "Türkçe", "famfamfam-flag-tr"));
 
             //Add/remove localization sources here
+            //Configuration.Localization.Sources.Add(
+            //    new XmlLocalizationSource(
+            //        ModuleZeroSampleProjectConsts.LocalizationSourceName,
+            //        HttpContext.Current.Server.MapPath("~/Localization/ModuleZeroSampleProject")
+            //        )
+            //    );
             Configuration.Localization.Sources.Add(
-                new XmlLocalizationSource(
+                new DictionaryBasedLocalizationSource(
                     ModuleZeroSampleProjectConsts.LocalizationSourceName,
-                    HttpContext.Current.Server.MapPath("~/Localization/ModuleZeroSampleProject")
+                    new XmlFileLocalizationDictionaryProvider(
+                        HttpContext.Current.Server.MapPath("~/Localization/ModuleZeroSampleProject")
+                        )
                     )
                 );
+            // \ABPSample\QuestionModule\ModuleZeroSampleProject.Web\Localization\SimpleTaskSystem
 
             //Configure navigation/menu
             Configuration.Navigation.Providers.Add<ModuleZeroSampleProjectNavigationProvider>();
