@@ -23,6 +23,10 @@ namespace Abp.Localization.Dictionaries.Xml
             _rootNamespace = rootNamespace;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sourceName"></param>
         public override void Initialize(string sourceName)
         {
             var resourceNames = _assembly.GetManifestResourceNames();

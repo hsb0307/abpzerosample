@@ -43,11 +43,9 @@ namespace ModuleZeroSampleProject.Web.Controllers
         [HttpPost]
         public async Task<JsonResult> Login(LoginViewModel loginModel, string returnUrl = "")
         {
-
             //var dataBuilder = new ModuleZeroSampleProject.Migrations.Data.InitialDataBuilder();
             //var dbContext =  Abp.Dependency.IocManager.Instance.IocContainer.Resolve<ModuleZeroSampleProject.EntityFramework.ModuleZeroSampleProjectDbContext>();
             //dataBuilder.Build(dbContext);
-
 
             if (!ModelState.IsValid)
             {

@@ -74,3 +74,31 @@ DEBUG 2015-11-27 16:29:34,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       -
 DEBUG 2015-11-27 16:29:34,603 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Users.Dto.UserDto
 DEBUG 2015-11-27 16:29:34,624 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Questions.IQuestionAppService' with service name 'app/question'.
 DEBUG 2015-11-27 16:29:34,625 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-11-27 21:03:39,176 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-11-27 21:03:41,391 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-11-27 21:03:41,432 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-27 21:03:41,433 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-27 21:03:41,434 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-27 21:03:41,434 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-27 21:03:41,434 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-27 21:03:41,434 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.4.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-27 21:03:41,435 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.4.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-27 21:03:41,435 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.4.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-27 21:03:41,435 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectApplicationModule, ModuleZeroSampleProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-27 21:03:41,435 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectCoreModule, ModuleZeroSampleProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-27 21:03:41,436 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectDataModule, ModuleZeroSampleProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-27 21:03:41,436 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.Web.ModuleZeroSampleProjectWebModule, ModuleZeroSampleProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-27 21:03:41,436 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectWebApiModule, ModuleZeroSampleProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-11-27 21:03:41,439 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-11-27 21:03:43,890 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2015-11-27 21:03:43,895 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2015-11-27 21:03:43,895 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-11-27 21:03:43,896 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-11-27 21:03:43,897 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ModuleZeroSampleProject
+DEBUG 2015-11-27 21:03:45,191 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2015-11-27 21:03:45,192 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.AnswerDto
+DEBUG 2015-11-27 21:03:45,324 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.QuestionDto
+DEBUG 2015-11-27 21:03:45,330 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.QuestionWithAnswersDto
+DEBUG 2015-11-27 21:03:45,334 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Users.Dto.UserDto
+DEBUG 2015-11-27 21:03:45,358 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Questions.IQuestionAppService' with service name 'app/question'.
+DEBUG 2015-11-27 21:03:45,358 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Users.IUserAppService' with service name 'app/user'.
