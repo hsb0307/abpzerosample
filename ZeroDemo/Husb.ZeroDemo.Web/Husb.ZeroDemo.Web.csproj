@@ -1220,19 +1220,19 @@
       <Name>Abp.Zero</Name>
     </ProjectReference>
     <ProjectReference Include="..\Husb.ZeroDemo.Application\Husb.ZeroDemo.Application.csproj">
-      <Project>{edf5d964-4c0f-4f19-b674-58a38a5e5401}</Project>
+      <Project>{880c2ddb-a374-445e-9cf5-f8873e77bd3f}</Project>
       <Name>Husb.ZeroDemo.Application</Name>
     </ProjectReference>
     <ProjectReference Include="..\Husb.ZeroDemo.Core\Husb.ZeroDemo.Core.csproj">
-      <Project>{17298ea0-af73-4f30-b6f1-2066100d7d74}</Project>
+      <Project>{847646e9-c364-4edf-9699-fae40bd81bc2}</Project>
       <Name>Husb.ZeroDemo.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\Husb.ZeroDemo.EntityFramework\Husb.ZeroDemo.EntityFramework.csproj">
-      <Project>{3979f157-deb0-4878-ab1d-4cef6b5a1300}</Project>
+      <Project>{3c573142-cea6-42ea-a853-5ba83ccbcdf1}</Project>
       <Name>Husb.ZeroDemo.EntityFramework</Name>
     </ProjectReference>
     <ProjectReference Include="..\Husb.ZeroDemo.WebApi\Husb.ZeroDemo.WebApi.csproj">
-      <Project>{5eb52d3d-09fd-463a-b02a-8d9856bd3724}</Project>
+      <Project>{1d711d80-4688-406a-9b72-84ccf023ecbb}</Project>
       <Name>Husb.ZeroDemo.WebApi</Name>
     </ProjectReference>
   </ItemGroup>

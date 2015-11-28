@@ -54,6 +54,12 @@ namespace Husb.Community.Web
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            //var session = Abp.Dependency.IocManager.Instance.IocContainer.Resolve<Abp.Runtime.Session.IAbpSession>();
+
+            //var dbContext = Abp.Dependency.IocManager.Instance.IocContainer.Resolve<Husb.Community.EntityFramework.CommunityDbContext>();
+            //var dataBuilder = new Husb.Community.Migrations.SeedData.InitialDataBuilder(dbContext);
+            //dataBuilder.Build();
         }
     }
 }

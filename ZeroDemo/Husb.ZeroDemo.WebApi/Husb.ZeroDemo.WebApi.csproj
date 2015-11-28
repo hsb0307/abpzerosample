@@ -146,11 +146,11 @@
       <Name>Abp.Zero</Name>
     </ProjectReference>
     <ProjectReference Include="..\Husb.ZeroDemo.Application\Husb.ZeroDemo.Application.csproj">
-      <Project>{edf5d964-4c0f-4f19-b674-58a38a5e5401}</Project>
+      <Project>{880c2ddb-a374-445e-9cf5-f8873e77bd3f}</Project>
       <Name>Husb.ZeroDemo.Application</Name>
     </ProjectReference>
     <ProjectReference Include="..\Husb.ZeroDemo.Core\Husb.ZeroDemo.Core.csproj">
-      <Project>{17298ea0-af73-4f30-b6f1-2066100d7d74}</Project>
+      <Project>{847646e9-c364-4edf-9699-fae40bd81bc2}</Project>
       <Name>Husb.ZeroDemo.Core</Name>
     </ProjectReference>
   </ItemGroup>

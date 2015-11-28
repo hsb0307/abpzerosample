@@ -115,7 +115,7 @@
       <Name>Abp.Zero</Name>
     </ProjectReference>
     <ProjectReference Include="..\Husb.ZeroDemo.Core\Husb.ZeroDemo.Core.csproj">
-      <Project>{17298ea0-af73-4f30-b6f1-2066100d7d74}</Project>
+      <Project>{847646e9-c364-4edf-9699-fae40bd81bc2}</Project>
       <Name>Husb.ZeroDemo.Core</Name>
     </ProjectReference>
   </ItemGroup>

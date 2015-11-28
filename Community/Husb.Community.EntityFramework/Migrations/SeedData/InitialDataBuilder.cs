@@ -13,8 +13,9 @@ namespace Husb.Community.Migrations.SeedData
 
         public void Build()
         {
-            new DefaultTenantRoleAndUserBuilder(_context).Build();
             new DefaultLanguagesBuilder(_context).Build();
+            new DefaultTenantRoleAndUserBuilder(_context).Build();
+            
         }
     }
 }
