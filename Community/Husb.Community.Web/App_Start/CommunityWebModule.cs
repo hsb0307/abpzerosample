@@ -19,6 +19,8 @@ namespace Husb.Community.Web
     {
         public override void PreInitialize()
         {
+            Configuration.MultiTenancy.IsEnabled = true;
+
             //Add/remove languages for your application
             Configuration.Localization.Languages.Add(new LanguageInfo("en", "English", "famfamfam-flag-england"));
             Configuration.Localization.Languages.Add(new LanguageInfo("zh-CN", "简体中文", "famfamfam-flag-cn", true));
